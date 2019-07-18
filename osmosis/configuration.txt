@@ -1,0 +1,8 @@
+# The URL of the directory containing change files.
+#baseUrl=http://planet.openstreetmap.org/replication/minute
+baseUrl=http://download.geofabrik.de/europe/austria-updates/
+
+# Defines the maximum time interval in seconds to download in a single invocation.
+# Setting to 0 disables this feature. (war 3600)
+maxInterval = 36000
+

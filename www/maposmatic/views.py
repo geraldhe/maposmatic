@@ -166,6 +166,9 @@ def new(request):
         if not 'overlay' in init_vals and 'new_overlay' in request.session:
             init_vals['overlay'] = request.session['new_overlay']
 
+        # RK: TODO BugFix
+        init_vals['default_papersize'] = 'DinA4'
+
         if 'new_papersize' in request.session:
             init_vals['default_papersize'] = request.session['new_papersize']
         if 'new_paperorientation' in request.session:
